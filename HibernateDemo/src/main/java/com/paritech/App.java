@@ -22,7 +22,7 @@ public class App
     	
     	Query q= session.createQuery(hql);
 //    	q.setParameter("pr", 17000.00);
-    	q.setParameter("id", 4);
+    	q.setParameter("id", 2);
     	
     	int rows=q.executeUpdate();
     	tx.commit();
